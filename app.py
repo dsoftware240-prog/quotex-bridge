@@ -55,7 +55,7 @@ def get_otc_data(asset, period):
         ws = websocket.create_connection(
             WS_URL,
             timeout=8,
-            origin="https://qxbroker.com"
+            origin="https://market-qx.trade"
         )
 
         # Socket.IO / Engine.IO handshake
